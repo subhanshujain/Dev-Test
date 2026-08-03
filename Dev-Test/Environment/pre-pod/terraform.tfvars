@@ -9,6 +9,11 @@
       location = "eastus"
     }
 
+     rg3 = {
+      name     = "testrg3"
+      location = "eastus"
+    }
+
 
 
   }
