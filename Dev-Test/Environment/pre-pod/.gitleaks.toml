@@ -1,0 +1,8 @@
+title = "Custom Gitleaks Rules"
+
+[[rules]]
+id = "hardcoded-password"
+description = "Hardcoded Password"
+regex = '''(?i)(password|passwd|pwd|admin_password|db_password)\s*[:=]\s*["']([^"']+)["']'''
+secretGroup = 2
+tags = ["password"]tfsec --version
